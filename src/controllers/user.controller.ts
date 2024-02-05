@@ -1,8 +1,8 @@
-import { asyncHandler } from "../utils/asyncHandler";
-import { ApiError } from "../utils/apiError";
-import { User } from "../models/user.model";
-import { uploadOnCloudinary } from "../utils/cloudinary";
-import { ApiResponse } from "../utils/apiResponse";
+import { asyncHandler } from "@/utils/asyncHandler";
+import { ApiError } from "@/utils/apiError";
+import { User } from "@/models/user.model";
+import { uploadOnCloudinary } from "@/utils/cloudinary";
+import { ApiResponse } from "@/utils/apiResponse";
 import { Request, Response, NextFunction } from "express";
 import { Document } from "mongoose";
 

@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
-import { ApiError } from "../utils/apiError";
-import { asyncHandler } from "../utils/asyncHandler";
-import { User } from "../models/user.model";
+import { ApiError } from "@/utils/apiError";
+import { asyncHandler } from "@/utils/asyncHandler";
+import { User } from "@/models/user.model";
 import { Document } from 'mongoose';
 import jwt, { JwtPayload } from "jsonwebtoken";
 

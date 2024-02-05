@@ -1,7 +1,8 @@
+import "module-alias/register"
 import dotenv from "dotenv";
 dotenv.config()
-import connectDB from "./db/index";
-import { app } from "./app";
+import connectDB from "@/db/index";
+import { app } from "@/app";
 
 
 connectDB().then(()=>{
